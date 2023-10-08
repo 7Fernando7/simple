@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>simple-int-api</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>simple-int-api</name>
+
+	<properties>
+		<architecture-elasticsearch-logger.version>1.1.1</architecture-elasticsearch-logger.version>
+		<architecture-jdbc.version>1.1.26</architecture-jdbc.version>
+		<architecture-tracing.version>2.2.8</architecture-tracing.version>
+		<architecture-utils.version>1.2.16</architecture-utils.version>
+
+		<architecture-logger-lib.version>1.0.0-SNAPSHOT</architecture-logger-lib.version>
+		<architecture-utils-lib.version>1.0.0-SNAPSHOT</architecture-utils-lib.version>
+		<architecture-jdbc-lib.version>1.0.0-SNAPSHOT</architecture-jdbc-lib.version>
+		<architecture-tracing-lib.version>1.0.0-SNAPSHOT</architecture-tracing-lib.version>
+
+		<org-apache-poi.version>5.2.2</org-apache-poi.version>
+		<hibernate-validator.version>8.0.0.Final</hibernate-validator.version>
+	</properties>
+	<!--
+	<parent>
+		<groupId>com.ccl</groupId>
+		<artifactId>architecture-spring-base</artifactId>
+		<version>2.0.5</version>
+	</parent>
+	-->
+
+	<parent>
+		<groupId>com.ccl</groupId>
+		<artifactId>architecture-spring-base-lib</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+	<dependencies>
+		<!--
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-config</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.ccl</groupId>
+			<artifactId>architecture-elasticsearch-logger</artifactId>
+			<version>${architecture-elasticsearch-logger.version}</version>
+		</dependency>
+				 
+		<dependency>
+			<groupId>com.ccl</groupId>
+			<artifactId>architecture-jdbc</artifactId>
+			<version>${architecture-jdbc.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.ccl</groupId>
+			<artifactId>architecture-utils</artifactId>
+			<version>${architecture-utils.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.ccl</groupId>
+			<artifactId>architecture-tracing</artifactId>
+			<version>${architecture-tracing.version}</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-config</artifactId>
+		</dependency>
+		-->
+		<dependency>
+			<groupId>com.ccl</groupId>
+			<artifactId>architecture-logger-lib</artifactId>
+			<version>${architecture-logger-lib.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.ccl</groupId>
+			<artifactId>architecture-jdbc-lib</artifactId>
+			<version>${architecture-jdbc-lib.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.ccl</groupId>
+			<artifactId>architecture-utils-lib</artifactId>
+			<version>${architecture-utils-lib.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.ccl</groupId>
+			<artifactId>architecture-tracing-lib</artifactId>
+			<version>${architecture-tracing-lib.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>${org-apache-poi.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>${org-apache-poi.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hibernate.validator</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>${hibernate-validator.version}</version>
+		</dependency>
+		<!--
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.11.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml-schemas</artifactId>
+			<version>4.1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-to-slf4j</artifactId>
+			<version>2.20.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.20.0</version>
+		</dependency>
+		-->
+	</dependencies>
+</project>
